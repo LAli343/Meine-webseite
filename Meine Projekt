@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Webseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Willkommen auf meiner Webseite!</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Startseite</a>
+        <a href="#about">Über mich</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Startseite</h2>
+            <p>Dies ist die Startseite meiner Webseite. Hier findest du die neuesten Informationen!</p>
+        </section>
+
+        <section id="about">
+            <h2>Über mich</h2>
+            <p>Ich bin ein Webentwickler und interessiere mich für neue Technologien.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Du kannst mich unter der E-Mail-Adresse <a href="mailto:beispiel@webseite.de">beispiel@webseite.de</a> erreichen.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Meine Webseite. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
